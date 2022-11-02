@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.content {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  width: 110px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hero-photo {
+  max-width: 550px;
+  margin: 15px 0;
+}
+
+.hero--header {
+  font-size: 30px;
+ margin: 18px 0;
+}
+
+.hero--text {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.card-holder {
+  color:rgba(0, 0, 0, 0.65);
+  width: 200px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-badge {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.main-card-photo {
+  width: 100%;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.card-rating {
+  font-size: 14px;
+  color: rgb(181, 181, 181);
+  display: flex;
+  align-items: center;
+}
+
+.card-location {
+  margin-left: 5px;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+.card-price-holder {
+  margin-top: auto;
+}
+
+.card-price {
+  color: black;
+  font-weight: bold;
+}
