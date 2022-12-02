@@ -14,7 +14,7 @@ function Card(props) {
      {badgeText !== null && <div className="card-badge">{badgeText}</div>}
       <img src={props.item.coverImg} alt="cover photo" className="main-card-photo" />
       <div className="card-rating">
-        <img src="./src/images/star.png" alt="star-rating" />
+        <img src="/star.png" alt="star-rating" />
         <p className="card-location">
           <span>
             {props.item.stats.rating} ({props.item.stats.reviewCount})
